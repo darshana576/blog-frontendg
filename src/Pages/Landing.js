@@ -133,6 +133,10 @@ const Landing = () => {
   }, []);
 
   useEffect(() => {
+    console.log(trending);
+  }, [trending]);
+
+  useEffect(() => {
     let counter = 2;
     const interval = setInterval(() => {
       if (counter == 1) {
