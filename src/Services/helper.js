@@ -3,7 +3,7 @@ import { getToken } from "./auth";
 import { isLoggedIn, doLogout } from "./auth";
 import { toast } from "react-toastify";
 
-export const BASE_URL =
+export const BASE_URL="https://blogbackened-m6d1.onrender.com";
   process.env.NODE_ENV === "development"
     ? process.env.REACT_APP_DEV_URL
     : process.env.REACT_APP_PROD_URL;
